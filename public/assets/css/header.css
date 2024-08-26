@@ -1,0 +1,102 @@
+.apply-now-btn {
+  background: #ffc107;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 25px;
+  border: 0px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.apply-now-btn:hover {
+  background: #2e3093;
+  color: #fff;
+}
+
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+header .navbar ul li {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  cursor: pointer;
+}
+header .navbar ul li:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.2666666667);
+  padding-right: 15px;
+  margin-right: 15px;
+}
+header .navbar ul li a {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+header .apply-now {
+  background: #ffc107;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 25px;
+  border: 0px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+header .apply-now:hover {
+  background: #2e3093;
+  color: #fff;
+}
+header .mbmenuicon {
+  display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  header .mobile-menu-main {
+    background: #000;
+    color: #fff !important;
+    margin-top: 10px;
+  }
+  header .mbmenuicon {
+    display: block !important;
+  }
+  header .mbmenuicon i {
+    font-size: 35px !important;
+    color: #000;
+    margin-right: 10px;
+  }
+  header .apply-now {
+    display: none !important;
+  }
+  header #mbmenu-show {
+    display: none;
+  }
+  header .weblogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .navbar {
+    display: block !important;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  header .navbar ul li {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  header .navbar ul li:not(:last-child) {
+    border-right: 0px solid rgba(0, 0, 0, 0.2666666667);
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+  header .navbar ul li a {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,213 @@
+.web-heading {
+  font-weight: 700;
+  color: #274c77;
+  font-size: 2.8rem;
+}
+
+.w-65 {
+  width: 65% !important;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+.web-sub-heading {
+  font-size: 20px;
+}
+
+.hero-section {
+  background-image: url("/assets/img/herobg.jpg");
+  height: 86vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+.hero-section h2, .hero-section p, .hero-section a, .hero-section ul, .hero-section li {
+  color: #fff;
+}
+.hero-section .hero-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-section .hero-first h2 {
+  font-size: 35px;
+  line-height: 1.5;
+}
+.hero-section .hero-first ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.hero-section .hero-first ul li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.hero-section .hero-first ul i {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.5333333333);
+  padding: 0px;
+  width: 75px;
+  text-align: center;
+  border-radius: 200px;
+  font-size: 30px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.hero-section form {
+  border: 1px solid rgba(0, 0, 0, 0.231372549);
+  border-radius: 10px;
+}
+.hero-section form label {
+  position: relative;
+}
+.hero-section form label i {
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  opacity: 0.7;
+}
+.hero-section form input, .hero-section form select {
+  padding-left: 35px;
+  color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.hero-section form ::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+}
+.hero-section form ::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+}
+
+.course-list {
+  background: #274c77;
+  border-radius: 100px;
+}
+.course-list ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: space-between;
+}
+.course-list ul li:nth-child(1) a {
+  background: #ecb13d;
+  color: #000 !important;
+  border-color: #ecb13d;
+}
+.course-list ul li {
+  padding: 20px 12px !important;
+}
+.course-list ul li a {
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 10px 15px !important;
+  border-radius: 100px;
+  font-weight: 500;
+}
+
+.course-card .card-header {
+  position: relative;
+  background-color: transparent;
+  background-image: linear-gradient(rgba(14, 60, 111, 0), #274c77);
+}
+.course-card .card-header img {
+  opacity: 0.2;
+}
+.course-card .card-header .course-name {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+.course-card .card-body h3 {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  margin-bottom: 15px !important;
+}
+
+.why-choose h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #150d0d;
+}
+.why-choose p {
+  font-weight: 700;
+  color: #274c77;
+}
+
+.why-choose-card h2 {
+  text-align: center;
+}
+.why-choose-card .icon {
+  display: flex;
+  justify-content: center;
+}
+.why-choose-card .icon i {
+  font-size: 60px;
+  background: #274c77;
+  border-radius: 100px;
+  width: 125px;
+  height: 125px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.why-choose-card .sub-heading {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px 20px;
+}
+
+.awards-sec {
+  margin-top: -170px;
+  margin-bottom: 50px;
+}
+
+.career-ops i {
+  font-size: 55px;
+  color: #ecb13d;
+}
+.career-ops .heading {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.career-ops .sub-heading {
+  font-size: 18px;
+}
+.career-ops .col-3 {
+  text-align: center;
+}
+
+.pride-list a {
+  background: #fff;
+}
+.pride-list img {
+  height: 36px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: -5px;
+}
+
+.video-section iframe {
+  border-radius: 15px;
+}
+.video-section h2 {
+  font-size: 18px;
+  line-height: 24px;
+}/*# sourceMappingURL=style.css.map */

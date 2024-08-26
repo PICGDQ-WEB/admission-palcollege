@@ -1,0 +1,91 @@
+.apply-now-btn
+    background: #ffc107
+    color: #000
+    font-size: 16px
+    font-weight: 500
+    padding: 10px 25px
+    border: 0px
+    border-radius: 10px
+    text-decoration: none
+    &:hover
+        background: #2e3093
+        color: #fff
+header
+    border-bottom: 1px solid #0003
+    .navbar
+        ul
+            li
+                list-style: none
+                text-decoration: none
+                display: inline
+                cursor: pointer
+                &:not(:last-child)
+                    border-right: 1px solid #0004
+                    padding-right: 15px
+                    margin-right: 15px
+
+                a
+                    color: #000
+                    cursor: pointer
+                    text-decoration: none
+                    font-size: 16px
+                    font-weight: 500
+
+    .apply-now
+        background: #ffc107
+        color: #000
+        font-size: 16px
+        font-weight: 500
+        padding: 10px 25px
+        border: 0px
+        border-radius: 10px
+        text-decoration: none
+        &:hover
+            background: #2e3093
+            color: #fff
+
+    .mbmenuicon
+        display: none!important
+
+@media only screen and (max-width:768px)
+    header
+        .mobile-menu-main
+            background: #000
+            color: #fff !important
+            margin-top: 10px
+        .mbmenuicon
+            display: block!important
+            i
+                font-size: 35px!important
+                color: #000
+                margin-right: 10px
+        .apply-now
+            display: none!important
+
+        #mbmenu-show
+            display: none
+
+        .weblogo
+            display: flex
+            justify-content: space-between
+            align-items: center
+        .navbar
+            display: block!important
+            margin-left: 5px
+            margin-top: 20px
+            ul
+                li
+                    display: block
+                    cursor: pointer
+                    margin-bottom: 20px
+                    &:not(:last-child)
+                        border-right: 0px solid #0004
+                        padding-right: 0px
+                        margin-right: 0px
+
+                    a
+                        color: #ffffff
+                        cursor: pointer
+                        text-decoration: none
+                        font-size: 18px
+                        font-weight: 500
