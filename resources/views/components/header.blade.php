@@ -3,7 +3,7 @@
         <div class="row my-2">
             <div class="col-12 col-lg-2 col-md-2">
                 <div class="weblogo">
-                    <a href="/home">
+                    <a href="/">
                         <img src="assets/img/pctmlogo.png" alt="pctmlogo" width="80">
                     </a>
                     <div class="mbmenuicon"><a href="#" id="mbmenu-icon"><i class="fa-solid fa-bars"></i></a></div>
@@ -14,12 +14,11 @@
                 <nav class="navbar">
                     <ul class="m-0 p-0">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Specializations</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">IUURankings and Awards</a></li>
-                        <li><a href="#">Student</a></li>
-                        <li><a href="#">Placements IUU</a></li>
-                        <li><a href="#">Campus Life</a></li>
+                        <li><a href="#Specializations">Specializations</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Awards">PCTM Rankings and Awards</a></li>
+                        <li><a href="#StudentPlacements">Student Placements</a></li>
+                        <li><a href="#CampusLife">Campus Life</a></li>
                     </ul>
                 </nav>
                 <a href="#" class="ms-5 apply-now"><i class="fa-solid fa-graduation-cap"></i> Apply Now</a>

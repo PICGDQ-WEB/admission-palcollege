@@ -177,6 +177,9 @@
   margin-top: -170px;
   margin-bottom: 50px;
 }
+.awards-sec .inner-row {
+  margin-left: 2px;
+}
 
 .career-ops i {
   font-size: 55px;
@@ -210,4 +213,97 @@
 .video-section h2 {
   font-size: 18px;
   line-height: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .w-65 {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  .hero-section {
+    height: auto;
+    padding: 50px 0px;
+  }
+  .hero-section .hero-first h2 {
+    font-size: 28px;
+  }
+  .hero-section .hero-first h2 br {
+    display: none;
+  }
+  .hero-section .hero-first ul li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .hero-section .hero-first ul li i {
+    background: #fff;
+    color: rgba(0, 0, 0, 0.5333333333);
+    padding: 0px;
+    width: 58px;
+    text-align: center;
+    border-radius: 200px;
+    font-size: 22px;
+    height: 58px;
+  }
+  .course-list {
+    border-radius: 5px;
+  }
+  .course-list ul {
+    display: block;
+    padding: 15px 0px;
+  }
+  .course-list ul li {
+    text-align: center;
+    padding: 5px 0px !important;
+  }
+  .course-list ul li a {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+  }
+  .featured-courses .row {
+    padding: 0px 15px;
+  }
+  .why-choose-card {
+    padding: 5px !important;
+  }
+  .why-choose-card h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .why-choose-card .sub-heading {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+  }
+  .promo-video iframe {
+    height: auto;
+  }
+  .awards-sec {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .awards-sec .inner-row {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 5px;
+  }
+  .awards-sec .inner-row .award-1, .awards-sec .inner-row .award-2, .awards-sec .inner-row .award-3, .awards-sec .inner-row .award-4 {
+    height: 240px !important;
+  }
+  .awards-sec .main-row {
+    flex-direction: column-reverse;
+  }
+  .awards-sec .web-heading {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .web-heading {
+    font-size: 32px !important;
+  }
+  .career-ops .heading {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=style.css.map */

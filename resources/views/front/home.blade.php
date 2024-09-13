@@ -6,10 +6,10 @@
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 @endsection
 @section('body')
-<section class="hero-section d-flex justify-content-start align-items-center">
+<section id="herosection" class="hero-section d-flex justify-content-start align-items-center">
     <div class="container">
         <div class="row">
-            <div class="col-8 hero-first">
+            <div class="col-12 col-md-8 hero-first">
                 <h2>Experience. Learn. Transform Possibilities <br>into Reality.</h2><br>
                 <ul>
                     <li><i class="fa-solid fa-medal"></i>Ranked 6th for placements in India <br>
@@ -19,7 +19,7 @@
                     <li><i class="fa-solid fa-user-graduate"></i>Offering 15+ Programs with 6 Schools</li>
                 </ul>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <form action="/action_page.php" class="bg-white p-4">
                     <h2 class="text-dark text-center fs-3">Admission Form</h2>
                     <div class="mb-3 mt-3">
@@ -112,8 +112,8 @@
         </div>
     </div>
 </section>
-<section>
-    <div class="container py-5">
+<section id="Specializations">
+    <div class="container py-5 featured-courses">
         <div class="row">
             <div class="col-12">
                 <h2 class="text-center fs-1">Featured Courses of PCTM</h2>
@@ -134,7 +134,7 @@
             </div>
         </div>
         <div class="row my-3 mt-4">
-            <div class="col-3 mb-3">
+            <div class="col-12 col-md-3 mb-3">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
@@ -153,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-12 col-md-3 mb-3">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
@@ -172,7 +172,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-12 col-md-3 mb-3">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
@@ -191,7 +191,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-12 col-md-3 mb-3">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
@@ -210,7 +210,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-12 col-md-3 mb-3">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
@@ -229,7 +229,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-12 col-md-3 mb-3">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
@@ -248,7 +248,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-12 col-md-3 mb-3">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
@@ -267,7 +267,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-12 col-md-3 mb-3">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
@@ -289,7 +289,7 @@
         </div>
     </div>
 </section>
-<section style="background:#e7ecef">
+<section id="About" style="background:#e7ecef">
     <div class="container py-5">
         <div class="row why-choose">
             <div class="col-12">
@@ -297,33 +297,33 @@
                 <P class="text-center fs-1 text-capitalize">pal college of technology and management</P>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-4 why-choose-card p-4">
+        <div class="row mt-md-5 mt-0">
+            <div class="col-6 col-md-4 why-choose-card p-4">
                 <p class="icon"><i class="fa-solid fa-user-graduate"></i></p>
                 <h2>12,000+ alumni</h2>
                 <p class="text-center sub-heading">Our network of 12,000 alumni reflects our core values globally</p>
             </div>
-            <div class="col-4 why-choose-card p-4">
+            <div class="col-6 col-md-4 why-choose-card p-4">
                 <p class="icon"><i class="fa-solid fa-user-graduate"></i></p>
                 <h2>12,000+ alumni</h2>
                 <p class="text-center sub-heading">Our network of 12,000 alumni reflects our core values globally</p>
             </div>
-            <div class="col-4 why-choose-card p-4">
+            <div class="col-6 col-md-4 why-choose-card p-4">
                 <p class="icon"><i class="fa-solid fa-user-graduate"></i></p>
                 <h2>12,000+ alumni</h2>
                 <p class="text-center sub-heading">Our network of 12,000 alumni reflects our core values globally</p>
             </div>
-            <div class="col-4 why-choose-card p-4">
+            <div class="col-6 col-md-4 why-choose-card p-4">
                 <p class="icon"><i class="fa-solid fa-user-graduate"></i></p>
                 <h2>12,000+ alumni</h2>
                 <p class="text-center sub-heading">Our network of 12,000 alumni reflects our core values globally</p>
             </div>
-            <div class="col-4 why-choose-card p-4">
+            <div class="col-6 col-md-4 why-choose-card p-4">
                 <p class="icon"><i class="fa-solid fa-user-graduate"></i></p>
                 <h2>12,000+ alumni</h2>
                 <p class="text-center sub-heading">Our network of 12,000 alumni reflects our core values globally</p>
             </div>
-            <div class="col-4 why-choose-card p-4">
+            <div class="col-6 col-md-4 why-choose-card p-4">
                 <p class="icon"><i class="fa-solid fa-user-graduate"></i></p>
                 <h2>12,000+ alumni</h2>
                 <p class="text-center sub-heading">Our network of 12,000 alumni reflects our core values globally</p>
@@ -331,41 +331,40 @@
         </div>
     </div>
 </section>
-<section>
-    <!-- <iframe width="100%" height="700px" src="https://www.youtube.com/embed/dSBFjxWMTo8?si=qjXN7XqkNyJO8F0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+<section class="promo-video">
     <iframe width="100%" height="700px" src="https://www.youtube.com/embed/OThbGX1Vugo?si=MiVsaJn8NDSj1_iQ"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </section>
-<section>
+<section id="Awards" >
     <img src="/assets/img/list-paper.png" alt="" width="100%">
 </section>
 <section class="awards-sec">
     <div class="container">
-        <div class="row">
-            <div class="col-6">
+        <div class="row main-row">
+            <div class="col-12 col-md-6 ">
                 <h2 class="web-heading mb-5">Our Rankings & Awards</h2>
-                <div class="row" style="margin-left:2px!important">
-                    <div class="col-6 p-5 ps-0 pt-0"
+                <div class="row inner-row">
+                    <div class="col-6 p-2 p-md-5 ps-md-0 pt-md-0 award-1"
                         style="height:200px;border:1px solid transparent;border-collapse: collapse;border-right:1px solid #000">
                         <img src="/assets/img/aw1.png" alt="" class="">
                         <h2 class="fs-5 mt-3">8th Rank Top 36 Private Universities</h2>
                         <p>Times MBA School Survey, 2023</p>
                     </div>
-                    <div class="col-6 p-5 pt-0 pe-0"
+                    <div class="col-6 p-2 ps-4 pe-0 p-md-5 pt-md-0 pe-md-0 award-2"
                         style="height:200px;border:1px solid transparent;border-collapse: collapse;border-bottom:1px solid #000">
                         <img src="/assets/img/aw1.png" alt="" class="">
                         <h2 class="fs-5 mt-3">8th Rank Top 36 Private Universities</h2>
                         <p>Times MBA School Survey, 2023</p>
                     </div>
-                    <div class="col-6 p-5 ps-0 pb-0"
+                    <div class="col-6 p-2 pt-5 pb-0 p-md-5 ps-md-0 pb-md-0 award-3"
                         style="height:200px;border:1px solid transparent;border-collapse: collapse;border-top:1px solid #000;margin-top: -1px;margin-right: -1px;">
                         <img src="/assets/img/aw1.png" alt="" class="">
                         <h2 class="fs-5 mt-3">8th Rank Top 36 Private Universities</h2>
                         <p>Times MBA School Survey, 2023</p>
                     </div>
-                    <div class="col-6 p-5 pe-0 pb-0"
+                    <div class="col-6 p-2 pt-5 ps-4 pb-0 p-md-5 pe-md-0 pb-md-0 award-4"
                         style="height:200px;border:1px solid transparent;border-collapse: collapse;border-left:1px solid #000">
                         <img src="/assets/img/aw1.png" alt="" class="">
                         <h2 class="fs-5 mt-3">8th Rank Top 36 Private Universities</h2>
@@ -373,7 +372,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 d-flex justify-content-end">
+            <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
                 <img src="/assets/img/unique-realistic-achievement-award-grant-diploma-concepts.jpg" alt="" width="80%"
                     style="margin-top:-50px">
             </div>
@@ -384,26 +383,26 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="web-heading mb-5 w-65">Grow your career with top-notch career opportunities</h2>
+                <h2 class="web-heading mb-2 mb-md-5 w-65">Grow your career with top-notch career opportunities</h2>
             </div>
-            <div class="col-12 career-ops py-5">
+            <div class="col-12 career-ops py-3 py-md-5">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-6 col-md-3 text-center text-md-start">
                         <p><i class="fa-solid fa-award"></i></p>
                         <p class="heading"><b>Ranked 6th for <br>placements in India</b></p>
                         <p class="sub-heading">(Times B School Survey, 2023)</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-6 col-md-3 text-center text-md-start">
                         <p><i class="fa-solid fa-handshake-angle"></i></p>
                         <p class="heading"><b>363+ Recruitment <br>Partners</b></p>
                         <p class="sub-heading">(Times B School Survey, 2023)</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-6 col-md-3 text-center text-md-start">
                         <p><i class="fa-brands fa-hire-a-helper"></i></p>
                         <p class="heading"><b>Recruiters from 10+ <br>Industry Domains</b></p>
                         <p class="sub-heading">(Times B School Survey, 2023)</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-6 col-md-3 text-center text-md-start">
                         <p><i class="fa-solid fa-briefcase"></i></p>
                         <p class="heading"><b>95% Placement <br>Record</b></p>
                         <p class="sub-heading">(Times B School Survey, 2023)</p>
@@ -413,8 +412,8 @@
         </div>
     </div>
 </section>
-<section>
-    <div class="container py-5">
+<section id="StudentPlacements">
+    <div class="container py-2 py-md-5">
         <div class="row">
             <div class="col-12">
                 <h2 class="web-heading w-65">Our Pride</h2>
@@ -436,34 +435,34 @@
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-3 mb-3">
+            <div class="col-6 col-md-3 mb-3">
                 <img src="/assets/img/placement/1.png" alt="" width="100%">
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-6 col-md-3 mb-3">
                 <img src="/assets/img/placement/2.png" alt="" width="100%">
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-6 col-md-3 mb-3">
                 <img src="/assets/img/placement/3.png" alt="" width="100%">
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-6 col-md-3 mb-3">
                 <img src="/assets/img/placement/4.png" alt="" width="100%">
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-6 col-md-3 mb-3">
                 <img src="/assets/img/placement/5.png" alt="" width="100%">
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-6 col-md-3 mb-3">
                 <img src="/assets/img/placement/6.png" alt="" width="100%">
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-6 col-md-3 mb-3">
                 <img src="/assets/img/placement/7.png" alt="" width="100%">
             </div>
-            <div class="col-3 mb-3">
+            <div class="col-6 col-md-3 mb-3">
                 <img src="/assets/img/placement/8.png" alt="" width="100%">
             </div>
         </div>
     </div>
 </section>
-<section style="background-color: #f9f9f9;">
+<section id="CampusLife" style="background-color: #f9f9f9;">
     <div class="container py-5">
         <div class="row">
             <div class="-col-12">
@@ -471,28 +470,28 @@
             </div>
         </div>
         <div class="row video-section">
-            <div class="col-3">
+            <div class="col-12 col-md-3">
                 <iframe width="100%" height="215" src="https://www.youtube.com/embed/F9xi93zRZPM?si=XqhusZLTcWf2GC9a"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <h2 class="mt-3">Annual Fest At Pal College of Technology and Management</h2>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3">
                 <iframe width="100%" height="215" src="https://www.youtube.com/embed/eg3qZNffMSk?si=79Dk1PHZnZS0v_Zd"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <h2 class="mt-3">Flourishing Day 2015 | Pal College Haldwani | College in Haldwani</h2>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3">
                 <iframe width="100%" height="215" src="https://www.youtube.com/embed/9JD2wWKlIK8?si=6CdS0nCDw5KSvzoj"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <h2 class="mt-3">Pal College Infrastructure | Best College in Uttarakhand</h2>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3">
                 <iframe width="100%" height="215" src="https://www.youtube.com/embed/OWY4nn5gxYM?si=kbZ9ZjEXYthwOo9Y"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
