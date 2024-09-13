@@ -59,9 +59,11 @@ header .mbmenuicon {
 
 @media only screen and (max-width: 768px) {
   header .mobile-menu-main {
-    background: #000;
+    background: #274c77;
     color: #fff !important;
     margin-top: 10px;
+    position: fixed;
+    top: 89px;
   }
   header .mbmenuicon {
     display: block !important;
