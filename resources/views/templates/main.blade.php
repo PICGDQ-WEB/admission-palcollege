@@ -16,5 +16,6 @@
     @yield('body')
     <script type="text/javascript" src="assets/js/header.js"></script>
     <x-footer />
+    @yield('endjs')
 </body>
 </html>

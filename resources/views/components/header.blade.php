@@ -1,15 +1,15 @@
 <header>
     <div class="container">
         <div class="row my-2">
-            <div class="col-12 col-lg-2 col-md-2">
+            <div class="col-12 col-lg-1 col-md-1">
                 <div class="weblogo">
                     <a href="/">
                         <img src="assets/img/pctmlogo.png" alt="pctmlogo" width="80">
                     </a>
-                    <div class="mbmenuicon"><a href="#" id="mbmenu-icon"><i class="fa-solid fa-bars"></i></a></div>
+                    <div class="mbmenuicon"><a href="javscript:void(0)" id="mbmenu-icon"><i class="fa-solid fa-bars"></i></a></div>
                 </div>
             </div>
-            <div id="mbmenu-show" class="col-12 col-lg-10 col-md-10 d-md-flex justify-content-end align-items-center mobile-menu-main">
+            <div id="mbmenu-show" class="col-12 col-lg-11 col-md-11 d-md-flex justify-content-end align-items-center mobile-menu-main">
                 <div class="main-nav d-block d-md-flex justify-content-end align-items-center">
                 <nav class="navbar">
                     <ul class="m-0 p-0">

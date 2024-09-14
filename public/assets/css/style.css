@@ -100,11 +100,6 @@
   margin-bottom: 0px;
   justify-content: space-between;
 }
-.course-list ul li:nth-child(1) a {
-  background: #ecb13d;
-  color: #000 !important;
-  border-color: #ecb13d;
-}
 .course-list ul li {
   padding: 20px 12px !important;
 }
@@ -115,6 +110,16 @@
   padding: 10px 15px !important;
   border-radius: 100px;
   font-weight: 500;
+}
+.course-list ul li a:hover {
+  background: #ecb13d;
+  color: #000;
+  border-color: #ecb13d;
+}
+.course-list ul li a:active, .course-list ul li a:focus {
+  background: #ecb13d;
+  color: #000;
+  border-color: #ecb13d;
 }
 
 .course-card .card-header {
@@ -213,6 +218,12 @@
 .video-section h2 {
   font-size: 18px;
   line-height: 24px;
+}
+
+.dynamic-bgchange {
+  background: #ecb13d !important;
+  color: #000 !important;
+  border-color: #ecb13d !important;
 }
 
 @media only screen and (max-width: 768px) {

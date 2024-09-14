@@ -121,25 +121,25 @@
                     students with
                     the skills and knowledge necessary to excel in their chosen field.</P>
             </div>
-            <div class="col-12 course-list">
+            <div id="courselist" class="col-12 course-list">
                 <ul>
-                    <li style="padding-left:0px!important"><a href="#">All Courses</a></li>
-                    <li><a href="#">Management Courses</a></li>
-                    <li><a href="#">Computer Applications</a></li>
-                    <li><a href="#">Science Courses</a></li>
-                    <li><a href="#">Commerce Courses</a></li>
-                    <li><a href="#">Education Courses</a></li>
-                    <li style="padding-right:0px!important"><a href="#">Distance Courses</a></li>
+                    <li style="padding-left:0px!important"><a href="#" data-course="AllCourses" class="dynamic-bgchange">All Courses</a></li>
+                    <li><a href="#" data-course="Management">Management Courses</a></li>
+                    <li><a href="#" data-course="Computer">Computer Applications</a></li>
+                    <li><a href="#" data-course="Science">Science</a></li>
+                    <li><a href="#" data-course="Commerce">Commerce</a></li>
+                    <li><a href="#" data-course="Education">Education</a></li>
+                    <li style="padding-right:0px!important"><a href="#" data-course="Distance">Distance</a></li>
                 </ul>
             </div>
         </div>
         <div class="row my-3 mt-4">
-            <div class="col-12 col-md-3 mb-3">
+            <div class="col-12 col-md-3 mb-3 all-pctm-courses" data-course="Management,AllCourses">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
-                        <p class="course-name">B.Com/B.Com (Hons.) <br>
-                            Undergraduate</p>
+                        <p class="course-name">BBA Corporate Industry <br>
+                        Integrated Programme</p>
                     </div>
                     <div class="card-body">
                         <h3>Eligibility : * 10+2 in any discipline with min. 45% marks and English as a Subject.</h3>
@@ -153,12 +153,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 mb-3">
+            <div class="col-12 col-md-3 mb-3 all-pctm-courses" data-course="Computer,AllCourses">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
-                        <p class="course-name">B.Com/B.Com (Hons.) <br>
-                            Undergraduate</p>
+                        <p class="course-name">BCA (Bachelor Of <br>
+                        Computer Applications)</p>
                     </div>
                     <div class="card-body">
                         <h3>Eligibility : * 10+2 in any discipline with min. 45% marks and English as a Subject.</h3>
@@ -172,12 +172,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 mb-3">
+            <div class="col-12 col-md-3 mb-3 all-pctm-courses" data-course="Management,AllCourses">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
-                        <p class="course-name">B.Com/B.Com (Hons.) <br>
-                            Undergraduate</p>
+                        <p class="course-name">BBA (Bachelor Of <br>
+                        Business Administration)</p>
                     </div>
                     <div class="card-body">
                         <h3>Eligibility : * 10+2 in any discipline with min. 45% marks and English as a Subject.</h3>
@@ -191,12 +191,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 mb-3">
+            <div class="col-12 col-md-3 mb-3 all-pctm-courses" data-course="Management,AllCourses">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
-                        <p class="course-name">B.Com/B.Com (Hons.) <br>
-                            Undergraduate</p>
+                        <p class="course-name">BHM (Bachelor Of  <br>
+                        Hotel Management)</p>
                     </div>
                     <div class="card-body">
                         <h3>Eligibility : * 10+2 in any discipline with min. 45% marks and English as a Subject.</h3>
@@ -210,12 +210,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 mb-3">
+            <div class="col-12 col-md-3 mb-3 all-pctm-courses" data-course="Education,AllCourses">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
-                        <p class="course-name">B.Com/B.Com (Hons.) <br>
-                            Undergraduate</p>
+                        <p class="course-name">B.Ed (Bachelor of  <br>
+                        Education)</p>
                     </div>
                     <div class="card-body">
                         <h3>Eligibility : * 10+2 in any discipline with min. 45% marks and English as a Subject.</h3>
@@ -229,12 +229,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 mb-3">
+            <div class="col-12 col-md-3 mb-3 all-pctm-courses" data-course="Science,AllCourses">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
-                        <p class="course-name">B.Com/B.Com (Hons.) <br>
-                            Undergraduate</p>
+                        <p class="course-name">B.Sc. Biotech (Bachelor of  <br>
+                        Science in Biotechnology)</p>
                     </div>
                     <div class="card-body">
                         <h3>Eligibility : * 10+2 in any discipline with min. 45% marks and English as a Subject.</h3>
@@ -248,12 +248,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 mb-3">
+            <div class="col-12 col-md-3 mb-3 all-pctm-courses" data-course="Commerce,AllCourses">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
-                        <p class="course-name">B.Com/B.Com (Hons.) <br>
-                            Undergraduate</p>
+                        <p class="course-name">B.Com Hons. (Bachelor of <br>
+                        Commerce- Honours)</p>
                     </div>
                     <div class="card-body">
                         <h3>Eligibility : * 10+2 in any discipline with min. 45% marks and English as a Subject.</h3>
@@ -267,12 +267,31 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 mb-3">
+            <div class="col-12 col-md-3 mb-3 all-pctm-courses" data-course="Computer,Distance,AllCourses">
                 <div class="card course-card">
                     <div class="card-header m-0 p-0">
                         <img src="/assets/img/12.jpg" alt="12" width="100%">
-                        <p class="course-name">B.Com/B.Com (Hons.) <br>
-                            Undergraduate</p>
+                        <p class="course-name">BCA (Bachelor Of  <br>
+                        Computer Applications) UOU</p>
+                    </div>
+                    <div class="card-body">
+                        <h3>Eligibility : * 10+2 in any discipline with min. 45% marks and English as a Subject.</h3>
+                        <p>* 5% relaxation shall be offered to candidates belonging to SC/ST/Uttarakhand OBC Category.
+                        </p>
+                        <p><b>Duration :</b> Three-Year/Four-Year Semester Based, Full-Time Undergraduate Programme.</p>
+                        <p><b>Type :</b> Semester Based</p>
+                        <a href="#" class="apply-now-btn w-100 d-block text-center"><i
+                                class="fa-solid fa-graduation-cap"></i>
+                            Register Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3 all-pctm-courses" data-course="Management,Distance,AllCourses">
+                <div class="card course-card">
+                    <div class="card-header m-0 p-0">
+                        <img src="/assets/img/12.jpg" alt="12" width="100%">
+                        <p class="course-name">Diploma In Hospitality <br>
+                         Administration</p>
                     </div>
                     <div class="card-body">
                         <h3>Eligibility : * 10+2 in any discipline with min. 45% marks and English as a Subject.</h3>
@@ -502,4 +521,7 @@
         </div>
     </div>
 </section>
+@endsection
+@section('endjs')
+<script type="text/javascript" src="assets/js/home.js"></script>
 @endsection
