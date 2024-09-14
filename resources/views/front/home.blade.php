@@ -126,10 +126,10 @@
                     <li style="padding-left:0px!important"><a href="#" data-course="AllCourses" class="dynamic-bgchange">All Courses</a></li>
                     <li><a href="#" data-course="Management">Management Courses</a></li>
                     <li><a href="#" data-course="Computer">Computer Applications</a></li>
-                    <li><a href="#" data-course="Science">Science</a></li>
-                    <li><a href="#" data-course="Commerce">Commerce</a></li>
-                    <li><a href="#" data-course="Education">Education</a></li>
-                    <li style="padding-right:0px!important"><a href="#" data-course="Distance">Distance</a></li>
+                    <li><a href="#" data-course="Science">Science Courses</a></li>
+                    <li><a href="#" data-course="Commerce">Commerce Courses</a></li>
+                    <li><a href="#" data-course="Education">Education Courses</a></li>
+                    <li style="padding-right:0px!important"><a href="#" data-course="Distance">Distance Courses</a></li>
                 </ul>
             </div>
         </div>
